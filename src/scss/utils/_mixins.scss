@@ -1,0 +1,39 @@
+@mixin menuMobile {
+
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+    display: none;
+
+    &__item{
+        flex-grow: 1;
+        align-content: center;
+        
+        text-align: center;
+        font-family: $Font-one;
+        font-weight: bold;
+        text-transform: uppercase;
+        background: black;
+        color: rgba(255, 255, 255, 0.925);
+    
+        min-height: 12vh;
+
+        &--droplist{
+     
+        }
+    }
+    
+    &__link{
+      
+        cursor: pointer;
+        height: 12vh;
+        display: grid;
+        align-items: center;
+        
+        &--droplink{
+         
+        }
+    }
+
+}

@@ -1,0 +1,46 @@
+.header{
+ width: 100vw;
+
+}
+
+.nav{ 
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    &__logo{
+        margin: 10px 0;
+    }
+
+    &__toggler{
+        
+        @media (min-width: 992px){
+            display: none;
+        }
+    }
+}
+
+.menu{
+    @include menuMobile;
+    height: 50vh;
+    overflow-y: scroll;
+    
+    &__item{
+        border-bottom: 1px solid rgba(219, 219, 219, 0.068);
+    }
+    
+}
+
+.menu-dropdown{
+    @include menuMobile;
+
+    &__item{
+        border-top: 1px solid rgba(219, 219, 219, 0.068);
+    }
+
+}

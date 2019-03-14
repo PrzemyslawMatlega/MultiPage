@@ -6,6 +6,7 @@ $(".menu__link--droplink").click( () =>{
     $(".menu-dropdown").slideToggle("slow");
 })
 
-$(".nav__toggler").click( () =>{
+$(".nav__icon").click( () =>{
+    $(".nav__icon").toggleClass('open');
     $(".menu").slideToggle("fast");
 })

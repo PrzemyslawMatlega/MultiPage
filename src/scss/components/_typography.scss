@@ -1,0 +1,19 @@
+.button-main{
+
+    font-weight: 500;
+    font-size: 1.6rem;
+    padding: 1.8rem 6rem;
+    display: inline-block;
+    border-radius: 30px;
+    background-size: 200% auto;
+    border:6px solid rgba(204, 241, 255, 0.5);
+    color: white;
+    background-image: linear-gradient(to right, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
+    cursor: pointer;
+    transition: 0.5s;
+    &:hover{
+
+            background-position: right center;
+            color: #fff;
+    }
+}

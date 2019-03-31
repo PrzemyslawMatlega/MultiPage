@@ -13,7 +13,7 @@ $Font-one : 'Roboto', sans-serif;
 }
 
 *,
-*::before,
+*::before,s
 *::after {
     box-sizing: inherit;
     
@@ -33,6 +33,10 @@ html {
 .container {
 
  
+}
+
+.openNav{
+    display: flex;
 }
 
 

@@ -39,3 +39,23 @@
     }
 
 }
+
+@mixin menuLink{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+}
+
+@mixin menuLinkMobile{
+    &__link {
+        height: 10vh;
+        background: rgba(0, 0, 0, 0.911);
+        color: white;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.452);
+    }
+
+}

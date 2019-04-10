@@ -1,46 +1,35 @@
 @mixin menuMobile {
 
- 
+
     flex-direction: column;
     list-style: none;
     width: 100%;
     display: none;
 
-    
-    &__item{
+
+    &__item {
         flex-grow: 1;
         display: block;
-        
         text-align: center;
-        font-family: $Font-one;
-        font-weight: bold;
-        font-size: 1.6rem;
         text-transform: uppercase;
         background: black;
-        color: rgba(255, 255, 255, 0.925);
-    
         min-height: 12vh;
-
-        &--droplist{
-     
-        }
+        &--droplist {}
     }
-    
-    &__link{
-      
+
+    &__link {
         cursor: pointer;
         height: 12vh;
         display: grid;
         align-items: center;
-        
-        &--droplink{
-         
+        &--droplink {
+            background: rgb(37, 36, 36);
         }
     }
 
 }
 
-@mixin menuLink{
+@mixin menuLink {
     display: flex;
     flex-grow: 1;
     align-items: center;
@@ -50,12 +39,19 @@
     font-size: 1.6rem;
 }
 
-@mixin menuLinkMobile{
+@mixin menuLinkMobile {
     &__link {
         height: 10vh;
-        background: rgba(0, 0, 0, 0.911);
+        display: flex;
+        justify-content: left;
+        padding-left: 5%;
+        text-transform: uppercase;
+        font-family: $Font-one;
+        font-weight: 500;
+        background: rgb(0, 0, 0);
         color: white;
         border-bottom: 1px solid rgba(128, 128, 128, 0.452);
+        
     }
 
 }

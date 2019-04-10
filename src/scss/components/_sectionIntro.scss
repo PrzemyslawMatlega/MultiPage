@@ -1,0 +1,23 @@
+.sectionIntro{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 20vh;
+
+    &__icon{
+
+    }
+    &__discover{
+        color: $grey-color;
+        text-transform: uppercase;
+        font-size: 1.3rem;
+
+    }
+    &__title{
+        font-size: 2.3rem;
+        text-align: center;
+        color: $heading-color;
+    }
+}

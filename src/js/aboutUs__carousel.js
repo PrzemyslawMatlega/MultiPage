@@ -17,12 +17,14 @@ nextBtn.addEventListener('click', () =>{
     counter++;
     carouselContainer.style.transform = `translateX(${(-size()*counter)}px)`;
 });
-prevBtn.addEventListener('click', () =>{
+function nextSlide (){
     if (counter <= 0) return;
     carouselContainer.style.transition = "transform 0.4s ease"
     counter--;
     carouselContainer.style.transform = `translateX(${(-size()*counter)}px)`;
-});
+}
+
+prevBtn.addEventListener('click', nextSlide);
 
 
 carouselContainer.addEventListener('transitionend',()=>{
@@ -45,3 +47,5 @@ window.addEventListener('resize', ()=>{
     carouselContainer.style.transition = "none";
     carouselContainer.style.transform = `translateX(${(-size()*counter)}px)`;
 })
+
+// window.setInterval(nextSlide,3000)

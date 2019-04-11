@@ -1,0 +1,44 @@
+.carousel{
+    width: 90vw;
+    padding: 0 1%;
+    margin: auto;
+    overflow: hidden;
+    
+    &__container{
+        display: flex;
+    }
+}
+
+.proofSlide{
+    display: grid;
+    grid-row-gap: 3vh;
+    min-width: 90vw;
+    &__quote{
+        font-size: 2rem;
+        color: $heading-color;
+    }
+    &__text{
+        font-size: 1.2rem;
+        color: $grey-color;
+        line-height: 2;
+        text-align: left;
+    }
+}
+
+.proofAuthor{
+    display: grid;
+    grid-template-columns: max-content auto;
+    grid-column-gap: 2%;
+    align-items: center;
+
+    &__name{
+        font-size: 1.6rem;
+        line-height: 1.5;
+        color: $heading-color;
+    }
+    &__job{
+        font-size: 1.2rem;
+        color: $heading-color;
+    }
+}
+

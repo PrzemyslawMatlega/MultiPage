@@ -1,4 +1,5 @@
 import '../scss/main.scss';
+import './aboutUs__carousel';
 import $ from "jquery";
 
 

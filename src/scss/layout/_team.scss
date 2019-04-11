@@ -1,0 +1,30 @@
+.team {
+    display: grid;
+    margin: 0 5%;
+}
+
+.teamList {
+    margin-top: -3rem;
+    padding-left: 1rem;
+    list-style: none;
+    &__element {
+        font-size: 1.2rem;
+        color: $grey-color;
+        line-height: 2.5;
+        position: relative;
+        padding-left: 2rem;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0px;
+            top: 50%;
+            transform: translateY(-50%);
+         
+            height: 7px;
+            width: 7px;
+            border-radius: 50%;
+            background: #a6d7ff;
+        }
+    }
+}

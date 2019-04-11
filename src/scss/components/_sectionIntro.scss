@@ -1,15 +1,16 @@
 .sectionIntro{
     display: grid;
-    justify-items: center;
-    grid-row-gap: 10%;
+    text-align: center;
+    grid-row-gap: 1rem;
+    margin: 5rem 0;
     &--left{
-        margin-left: 5vw;
-        justify-items: left;
-        margin-top: 5rem;
+
+        text-align:left;
+  
     }
 
-    &__icon{
-
+    &__icon--center{
+        justify-self: center;
     }
     &__discover{
         color: $grey-color;

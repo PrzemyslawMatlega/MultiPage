@@ -1,10 +1,12 @@
 .sectionIntro{
-    display: flex;
-    flex-grow: 0;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    height: 20vh;
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 10%;
+    &--left{
+        margin-left: 5vw;
+        justify-items: left;
+        margin-top: 5rem;
+    }
 
     &__icon{
 
@@ -19,5 +21,8 @@
         font-size: 2.3rem;
         text-align: center;
         color: $heading-color;
+        &--left{
+            text-align: left;
+        }
     }
 }

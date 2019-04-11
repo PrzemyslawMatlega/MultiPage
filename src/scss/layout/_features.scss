@@ -13,7 +13,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    &__icon{}
+    &__icon{
+        height: 80px;
+    }
 
     &__heading{
         font-family: $Font-one;
@@ -23,11 +25,9 @@
     }
 
     &__description{
-        color: $grey-color;
         width: 70%;
         max-width: 350px;
-        font-size: 1.3rem;
-        text-align: center;
-        line-height: 1.5;
+        text-align: center
+
     }
 }

@@ -3,21 +3,21 @@
     text-align: center;
     grid-row-gap: 1rem;
     margin: 5rem 0;
-    &--left{
 
+    &--left{
         text-align:left;
-  
     }
 
     &__icon--center{
         justify-self: center;
     }
+
     &__discover{
         color: $grey-color;
         text-transform: uppercase;
         font-size: 1.3rem;
-
     }
+
     &__title{
         font-size: 2.3rem;
         text-align: center;
@@ -25,5 +25,15 @@
         &--left{
             text-align: left;
         }
+    }
+    &__callNow{
+        font-size: 1.8rem;
+        color: #97ccfe;
+        font-weight: 500;
+    }
+    &__number{
+        font-size: 2.5rem;
+        color: #0b1033;
+        font-weight: 500;
     }
 }

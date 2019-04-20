@@ -7,6 +7,7 @@
     }
 
     &__map{
+        padding: 5px;
         &>img{
             display: block;
             width: 100%;
@@ -18,26 +19,27 @@
 
 .contactUs {
     display: grid;
-    grid-row-gap: 3rem;
+    grid-row-gap: 2rem;
     width: 90%;
     margin: auto;
-
+  
     &__field {
-        height: 50px;
+        height: 2rem;
         border: none;
         border-bottom: 2px solid #e1e1e1;
-        font-size: 1.3rem;
         font-family: "Open Sans", sans-serif;
         font-style: italic;
         color: #a5bbd0;
+        padding-left: 0.5rem;
 
         &--big{
+            padding: 0.5rem;
             height: 200px;
         }
     }
 
     &__button{
-        justify-self: center;
-        width: 20rem;
+     justify-self: center;
+     padding: 1rem 4rem;
     }
 }

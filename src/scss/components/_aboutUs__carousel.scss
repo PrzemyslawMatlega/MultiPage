@@ -18,7 +18,7 @@
         color: rgba(128, 128, 128, 0.418);
         right: 2%;
         bottom: 0%;
-        font-size: 3rem;
+      
         transition: 0.4s all ease;
         &:active{
             transform: scale(0.95);
@@ -34,7 +34,7 @@
     grid-row-gap: 3vh;
     min-width: 90vw;
     &__quote{
-        font-size: 2rem;
+      
         color: $heading-color;
     }
     &__text{
@@ -49,12 +49,12 @@
     align-items: center;
 
     &__name{
-        font-size: 1.6rem;
+        font-size: 0.8rem;
         line-height: 1.5;
         color: $heading-color;
     }
     &__job{
-        font-size: 1.2rem;
+        font-size: 0.8rem;
         color: $heading-color;
     }
 }

@@ -1,6 +1,7 @@
 .features{
  display: grid;
  grid-row-gap: 10vh;
+ width: 100%;
 }
 .featuresBox{
     display: grid;
@@ -20,14 +21,15 @@
     &__heading{
         font-family: $Font-one;
         color: $heading-color;
-        font-size: 2rem;
+        font-size: 1.8rem;
         line-height: 2.5;
     }
 
     &__description{
         width: 70%;
         max-width: 350px;
-        text-align: center
+        text-align: center;
+        padding:0;
 
     }
 }

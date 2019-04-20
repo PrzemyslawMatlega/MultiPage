@@ -1,4 +1,10 @@
 .contact {
+    margin-top: 5rem;
+    &__intro{
+        width: 90%;
+        margin: 5rem auto;
+        
+    }
 
     &__map{
         &>img{
@@ -13,7 +19,7 @@
 .contactUs {
     display: grid;
     grid-row-gap: 3rem;
-    width: 80%;
+    width: 90%;
     margin: auto;
 
     &__field {

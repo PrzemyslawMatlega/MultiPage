@@ -7,7 +7,7 @@
     background: url('/src/img/footer-bg.jpg');
     background-size: cover;
     background-position: center center;
-    padding: 5rem 15%;
+    padding: 5rem 10%;
     grid-row-gap: 3rem;
     
 
@@ -42,16 +42,15 @@
     }
     &__form{
         display: grid;
-        justify-items: center;
-        
+
     }
     &__input{
-        justify-self: stretch;
         height: 4rem;
         padding: 0 2rem;
     }
     &__button{
-        
+        margin-top: 3rem;
+        justify-self: left;
         
     }
 }
@@ -67,7 +66,7 @@
 .social{
     background-color:#11173b;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 2.5rem 10%;
     
     &>i{

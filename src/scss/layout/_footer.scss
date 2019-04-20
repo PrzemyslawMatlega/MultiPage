@@ -42,16 +42,17 @@
     }
     &__form{
         display: grid;
-        justify-items: center;
+
         
     }
     &__input{
-        justify-self: stretch;
+
         height: 4rem;
         padding: 0 2rem;
     }
     &__button{
-        
+        margin-top: 3rem;
+        justify-self: left;
         
     }
 }
